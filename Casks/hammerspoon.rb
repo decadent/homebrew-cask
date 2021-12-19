@@ -15,6 +15,7 @@ cask "hammerspoon" do
   end
 
   auto_updates true
+  depends_on macos: ">= :catalina"
 
   app "Hammerspoon.app"
 
